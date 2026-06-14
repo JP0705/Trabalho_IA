@@ -1,8 +1,6 @@
-# Contability - Assistente Contábil com IA
+# Indústria 4.0 - 
 
-Sistema inteligente de consultoria contábil e financeira utilizando IA generativa, desenvolvido com Flask, PostgreSQL e modelos LLM via Groq.
-
-O Contability auxilia profissionais, empresas e empreendedores em dúvidas relacionadas à contabilidade, tributação, obrigações fiscais e gestão financeira.
+Sistema inteligente de consultoria para maquinário utilizando IA generativa, desenvolvido com Flask, PostgreSQL e modelos LLM via Groq.
 
 ---
 
@@ -57,7 +55,7 @@ O Contability auxilia profissionais, empresas e empreendedores em dúvidas relac
 ## 📁 Estrutura do Projeto
 
 ```txt
-Contability/
+Trabalho_IA/
 │
 ├── app.py
 ├── db.py
@@ -69,9 +67,7 @@ Contability/
 │
 ├── static/
 │   ├── style.css
-│   ├── script.js
-│   └── img/
-│       └── logo.png
+│   └── script.js
 │
 └── README.md
 ```
@@ -83,13 +79,13 @@ Contability/
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/JP0705/Contability--.git
+git clone https://github.com/JP0705/Trabalho_IA.git
 ```
 
 ### 2. Entrar na pasta
 
 ```bash
-cd contability--
+cd Trabalho_IA
 ```
 
 ### 3. Instalar dependências
@@ -114,7 +110,7 @@ docker run --name postgres ^
 Criar o banco:
 
 ```sql
-CREATE DATABASE contability;
+CREATE DATABASE "Name";
 ```
 
 Criar a tabela de histórico:
@@ -172,7 +168,7 @@ via Groq API.
 
 ## 💾 Memória Conversacional
 
-O Contability armazena automaticamente:
+A Indústria 4.0 armazena automaticamente:
 
 * Perguntas do usuário
 * Respostas da IA
