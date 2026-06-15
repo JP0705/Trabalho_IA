@@ -13,7 +13,7 @@ function showTypingIndicator(){
     typingIndicator.classList.add("typing-indicator");
 
     typingIndicator.innerHTML = `
-        Contability está analisando
+        trabalhando em uma resposta
         <div class="typing-dots">
             <span>.</span>
             <span>.</span>
@@ -127,11 +127,7 @@ async function newChat() {
         chatBody.innerHTML = "";
 
         addMessage(`
-            👋 Olá!
-
-            Sou o Contability, seu assistente contábil.
-
-            Como posso ajudar você hoje?
+        Bem-vindo a industria 4.0! Como posso ajudar você hoje?
         `);
 
     } catch (error) {
