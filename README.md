@@ -199,30 +199,12 @@ Este projeto está licenciado sob a licença MIT.
 
 ## 👨‍💻 Autor
 
-Desenvolvido por JP0705
-
----
-
-## ⚠️ Segurança
-
-Nunca envie para o GitHub:
-
-* `.env`
-* senhas
-* chaves de API
-* credenciais de banco de dados
-
-Utilize um `.gitignore`:
-
-```gitignore
-.env
-__pycache__/
-*.pyc
-venv/
-.env.local
-```
-
----
+Desenvolvido por 
+JP0705 (João Pimenta)
+wederor (Weder Rocha)
+AnjosKaue (Kaue Anjos)
+FernandoGuilherme (Fernando Guilherme)
+LuisGustavoPassos (Luis Gustavo)
 
 ## 🚀 Status do Projeto
 
