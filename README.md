@@ -189,20 +189,6 @@ Isso permite que a IA mantenha contexto entre interações, tornando as resposta
 * [x] Markdown nas respostas
 * [x] Nova consulta
 
-### Próximas Funcionalidades
-
-* [ ] Upload de documentos PDF
-* [ ] Leitura de notas fiscais
-* [ ] Geração de relatórios PDF
-* [ ] Exportação de conversas
-* [ ] Sistema de usuários
-* [ ] Multiempresa
-* [ ] Dashboard financeiro
-* [ ] Tema Dark Mode
-* [ ] Streaming de respostas
-* [ ] RAG com legislação tributária
-* [ ] Integração com Receita Federal
-
 ---
 
 ## 📄 Licença

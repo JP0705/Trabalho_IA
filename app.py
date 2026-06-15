@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, jsonify
 from openai import OpenAI
 from dotenv import load_dotenv
 import os
-
 from db import get_history, save_message, clear_history
 
 load_dotenv()
