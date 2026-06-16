@@ -200,12 +200,12 @@ Este projeto está licenciado sob a licença MIT.
 ## 👨‍💻 Autor
 
 Desenvolvido por 
-*JP0705 (João Pimenta)
-*wederor (Weder Rocha)
-*AnjosKaue (Kaue Anjos)
-*FernandoGuilherme (Fernando Guilherme)
-*LuisGustavoPassos (Luis Gustavo)
-*EdduPrm (Eduardo Prado)
+* JP0705 (João Pimenta)
+* wederor (Weder Rocha)
+* AnjosKaue (Kaue Anjos)
+* FernandoGuilherme (Fernando Guilherme)
+* LuisGustavoPassos (Luis Gustavo)
+* EdduPrm (Eduardo Prado)
 
 ## 🚀 Status do Projeto
 
