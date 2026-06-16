@@ -6,6 +6,12 @@ let typingIndicator = null;
 
 const newChatBtn = document.getElementById("new-chat-btn");
 
+function addWelcomeMessage() {
+    addMessage(`
+        Bem-vindo a industria 4.0! Como posso ajudar você hoje?
+    `);
+}
+
 function showTypingIndicator(){
 
     typingIndicator = document.createElement("div");
@@ -125,10 +131,7 @@ async function newChat() {
         });
 
         chatBody.innerHTML = "";
-
-        addMessage(`
-        Bem-vindo a industria 4.0! Como posso ajudar você hoje?
-        `);
+        addWelcomeMessage();
 
     } catch (error) {
 
@@ -137,3 +140,24 @@ async function newChat() {
 }
 
 newChatBtn.addEventListener("click", newChat);
+
+async function loadHistory() {
+    try {
+        const response = await fetch("/history");
+        const data = await response.json();
+
+        chatBody.innerHTML = "";
+
+        if (data.history && data.history.length > 0) {
+            data.history.forEach((message) => {
+                addMessage(message.content, message.role === "user" ? "user" : "bot");
+            });
+        } else {
+            addWelcomeMessage();
+        }
+    } catch (error) {
+        addWelcomeMessage();
+    }
+}
+
+loadHistory();
