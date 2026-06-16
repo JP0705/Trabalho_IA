@@ -205,6 +205,7 @@ wederor (Weder Rocha)
 AnjosKaue (Kaue Anjos)
 FernandoGuilherme (Fernando Guilherme)
 LuisGustavoPassos (Luis Gustavo)
+EdduPrm (Eduardo Prado)
 
 ## 🚀 Status do Projeto
 
