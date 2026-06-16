@@ -6,7 +6,7 @@ Sistema inteligente de consultoria para maquinário utilizando IA generativa, de
 
 ## ✨ Funcionalidades
 
-* Assistente inteligente de consultoria para maquinário especializado
+* Assistente inteligente de consultoria para maquinário
 * Memória persistente de conversas
 * Histórico armazenado em PostgreSQL
 * Respostas formatadas em Markdown
