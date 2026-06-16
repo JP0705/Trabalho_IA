@@ -205,7 +205,7 @@ Desenvolvido por
 * AnjosKaue (Kaue Anjos)
 * FernandoGuilherme (Fernando Guilherme)
 * LuisGustavoPassos (Luis Gustavo)
-* EdduPrm (Eduardo Prado)
+* EdduPr (Eduardo Prado)
 
 ## 🚀 Status do Projeto
 
